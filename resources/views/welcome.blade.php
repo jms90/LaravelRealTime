@@ -8,9 +8,7 @@
                 <div class="card-header">Bienvenido</div>
 
                 <div class="card-body">
-                    @if (session('status'))
                       Esta es una aplicación en tiempo real.
-                    @endif
                 </div>
             </div>
         </div>

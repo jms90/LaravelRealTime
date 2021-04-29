@@ -40,6 +40,6 @@ Uso de aplicaciones en tiempo real como notificaciones cuando cambia el estado d
         PUSHER_APP_SECRET=********************
         PUSHER_APP_CLUSTER=eu
         ```
-5. Creamos una clabe con el comando **php artisan key:generate** y comprovamos que nuestro archivo .env se ha actualizado
+5. Creamos una clabe con el comando **php artisan key:generate** y comprobamos que nuestro archivo .env se ha actualizado
 
 6. Y por último podremos ejecutar el proyecto utilizando el comando **php artisan serve**

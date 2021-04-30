@@ -43,3 +43,13 @@ Uso de aplicaciones en tiempo real como notificaciones cuando cambia el estado d
 5. Creamos una clabe con el comando **php artisan key:generate** y comprobamos que nuestro archivo .env se ha actualizado
 
 6. Y por último podremos ejecutar el proyecto utilizando el comando **php artisan serve**
+
+7. Para probar la lista de usuarios puedes hacerlo con **[Postman](https://www.postman.com/)** a las siguientes rutas.
+
+    ```
+        * method-> get localhost:8000/api/users te devolverá todos los usuarios
+        * method-> get localhost:8000/api/users/ID te devolverá el usuario con el mismo id
+        * method-> post localhost:8000/api/users crear usuario (recuerda rellenar el body como form-data)
+        * method-> update localhost:8000/api/users/id actualizar ese usuario (Recuerda rellenar body como x-www-form-urlencoded)
+        * method-> delete localhost:8000/api/users/id borrar ese usuario
+    ```
